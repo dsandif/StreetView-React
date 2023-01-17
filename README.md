@@ -1,6 +1,6 @@
 # StreetView-React
-A stateful Google streetview component for older versions of React.js
-
+A stateful Google streetview component for older versions of React.js.
+This class component will render either a map view or a streetview depending on the streetview prop. It supports zoom and will find the closest address by geocoding the address property via the maps api.
 **Usage**
 ```javascript
 <StreetView
